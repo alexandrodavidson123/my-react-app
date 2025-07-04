@@ -18,7 +18,7 @@ const Header: React.FC<HeaderProps> = ({ onSignup, onLogin, user, onLogout }) =>
     <div className={styles.container}>
       <div className={styles.logo}>
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
-          <h4>Jobly</h4>
+          <h4>Сareerboost</h4>
         </Link>
       </div>
       <nav className={styles.nav}>

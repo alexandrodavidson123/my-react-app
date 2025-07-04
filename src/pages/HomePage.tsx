@@ -44,13 +44,13 @@ const HomePage: React.FC = () => (
     <SliderSection />
     <QuoteSection />
     <InfoSection />
-    <CardList/>
+    
 
-    <h2>
+    {/* <h2>
       <Link to="/cards" style={{ textDecoration: "none", color: "inherit", cursor: "pointer" }}>
         Карточки
       </Link>
-    </h2>
+    </h2> */}
     
     <ConnectSection />
     <CtaSection />
