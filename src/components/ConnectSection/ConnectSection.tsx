@@ -6,9 +6,9 @@ const ConnectSection: React.FC = () => (
     <div className={styles.container}>
       <img src="img/connect-image.png" alt="Connect with Recruiter" className={styles.connectImage} />
       <div className={styles.connectText}>
-        <h1>Connect With Recruiter</h1>
+        <h1>Свяжитесь с Рекрутером</h1>
         <p>
-          Get instant access to a curated pool of top creative & tech talent actively seeking their next role. Find highly qualified job!
+          Получите мгновенный доступ к отборному списку лучших творческих и технических специалистов, активно ищущих свою следующую работу. Найдите высококвалифицированную работу!
         </p>
       </div>
     </div>

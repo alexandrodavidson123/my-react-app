@@ -10,13 +10,13 @@ const QuoteSection: React.FC = () => (
       </div>
       <blockquote>
         <h1>
-          Creating an Online Presence is Hard.<br />
-          Jobly Makes it Easy for Recruiters to See you
+          Создать свое присутствие в Интернете непросто.<br />
+          С помощью  Superjob рекрутерам будет легко найти вас
         </h1>
         <br />
         <div className={styles.author}>
-          <h4>Zhao Cui</h4>
-          <p>Founder at Jobly.co</p>
+          <h4>Алексей Захаров</h4>
+          <p>Основатель компании Superjob</p>
         </div>
       </blockquote>
     </div>

@@ -18,12 +18,12 @@ const Header: React.FC<HeaderProps> = ({ onSignup, onLogin, user, onLogout }) =>
     <div className={styles.container}>
       <div className={styles.logo}>
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
-          <h4>Сareerboost</h4>
+          <h4>Superjob</h4>
         </Link>
       </div>
       <nav className={styles.nav}>
         <a href="#" className={styles.forRecruiters}>
-          For Recruiters
+         Для рекрутеров
         </a>
 
         {user ? (
@@ -37,7 +37,7 @@ const Header: React.FC<HeaderProps> = ({ onSignup, onLogin, user, onLogout }) =>
                 onLogout();
               }}
             >
-              Log Out
+              Выход
             </a>
           </>
         ) : (
@@ -50,7 +50,7 @@ const Header: React.FC<HeaderProps> = ({ onSignup, onLogin, user, onLogout }) =>
                 onSignup();
               }}
             >
-              Sign Up
+             Регистрация
             </a>
             <a
               href="#"
@@ -60,7 +60,7 @@ const Header: React.FC<HeaderProps> = ({ onSignup, onLogin, user, onLogout }) =>
                 onLogin();
               }}
             >
-              Log In
+              Вход
             </a>
           </>
         )}

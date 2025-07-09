@@ -6,7 +6,7 @@ const InfoSection = () => {
   return (
     <section className={styles.info}>
       <div className={styles.container}>
-        <h1>Everything you want to know in one place.</h1>
+        <h1>Все, что вы хотите знать, собрано в одном месте.</h1>
         <img id="infoImage" src="img/professional-profile.png" alt="Info" className={styles.infoImage} />
         
         <CardList />
